@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- List of landmarks -->
+    <string-array name="landmark_names">
+        <item name="buckingham_palace">Buckingham Palace</item>
+        <item name="colosseum">Colosseum</item>
+        <item name="eiffell_tower">Eiffell Tower</item>
+        <item name="houses_of_parliament">Houses Of Parliament</item>
+        <item name="london_eye">London Eye</item>
+        <item name="soton_bargate">Bargate</item>
+        <item name="soton_titanic_museum">Titanic Museum</item>
+        <item name="statue_of_liberty">Statue Of Liberty</item>
+        <item name="stonehenge">Stonehenge</item>
+        <item name="taj_mahal">Taj Mahal</item>
+        <item name="tower_bridge">Tower Bridge</item>
+        <item name="tower_of_london">Tower Of London</item>
+    </string-array>
+
+    <array name="landmark_drawables">
+        <item name="buckingham_palace">@drawable/buckingham_palace</item>
+        <item name="colosseum">@drawable/colosseum</item>
+        <item name="eiffell_tower">@drawable/eiffell_tower</item>
+        <item name="houses_of_parliament">@drawable/houses_of_parliament</item>
+        <item name="london_eye">@drawable/london_eye</item>
+        <item name="soton_bargate">@drawable/soton_bargate</item>
+        <item name="soton_titanic_museum">@drawable/soton_titanic_museum</item>
+        <item name="statue_of_liberty">@drawable/statue_of_liberty</item>
+        <item name="stonehenge">@drawable/stone_henge</item>
+        <item name="taj_mahal">@drawable/taj_mahal</item>
+        <item name="tower_bridge">@drawable/tower_bridge</item>
+        <item name="tower_of_london">@drawable/tower_of_london</item>
+    </array>
+    <array name="landmark_locations">
+        <item name="buckingham_palace">London, UK</item>
+        <item name="colosseum">Rome, Italy</item>
+        <item name="eiffell_tower">Paris, France</item>
+        <item name="houses_of_parliament">London, UK</item>
+        <item name="london_eye">London, UK</item>
+        <item name="soton_bargate">Southampton, UK</item>
+        <item name="soton_titanic_museum">Southampton, UK</item>
+        <item name="statue_of_liberty">New York, USA</item>
+        <item name="stonehenge">Wiltshire, UK</item>
+        <item name="taj_mahal">Agra, India</item>
+        <item name="tower_bridge">London, UK</item>
+        <item name="tower_of_london">London, UK</item>
+    </array>
+
+</resources>

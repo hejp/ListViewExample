@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/listItemImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/landmark"
+        android:padding="2dp"
+        android:src="@drawable/soton_titanic_museum" />
+
+    <TextView
+        android:id="@+id/listItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/listItemImage"
+        android:padding="2dp"
+        android:text="@string/sample_soton_titanic_museum_name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/listItemLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/listItemName"
+        android:layout_below="@+id/listItemName"
+        android:layout_marginLeft="4dp"
+        android:text="@string/sample_soton_titanic_museum_location"
+        android:textColor="#aaaaaa"
+        android:textSize="10sp" />
+
+</RelativeLayout>

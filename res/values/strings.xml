@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListViewExample</string>
+    <string name="landmark">Landmark</string>
+    <string name="sample_soton_titanic_museum_name">Titanic Museum</string>
+    <string name="sample_soton_titanic_museum_location">Southampton, UK</string>
+
+    <item name="tagListItemName" type="id"/>
+    <item name="tagListItemImage" type="id"/>
+    <item name="tagListItemLocation" type="id"/>
+
+</resources>
